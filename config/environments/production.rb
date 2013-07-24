@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ESITestWebsite::Application.configure do
+=======
+TestWebsite::Application.configure do
+>>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

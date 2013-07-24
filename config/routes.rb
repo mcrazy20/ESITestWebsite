@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 ESITestWebsite::Application.routes.draw do
 
+=======
+TestWebsite::Application.routes.draw do
+>>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
   get "content/sponsors"
   get "content/aboutus"
   get "content/scholarship"
   get "content/charity"
   get "content/events"
   get "content/news"
+<<<<<<< HEAD
   get "content/pressrelease"
+=======
+>>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
   get "homepage/index"
 
   resources :content
@@ -18,9 +25,16 @@ ESITestWebsite::Application.routes.draw do
   match '/charity', to: 'content#charity'
   match '/events', to: 'content#events'
   match '/news', to: 'content#news'
+<<<<<<< HEAD
   match '/pressrelease', to: 'content#pressrelease'
 
   root to:"homepage#index"
+=======
+
+  root to:"homepage#index"
+
+
+>>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

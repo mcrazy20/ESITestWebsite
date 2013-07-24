@@ -4,4 +4,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+<<<<<<< HEAD
 ESITestWebsite::Application.load_tasks
+=======
+TestWebsite::Application.load_tasks
+>>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230

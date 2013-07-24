@@ -1,0 +1,9 @@
+--- 
+open_files: 
+  - Gemfile
+  - app/views/layouts/application.html.erb
+  - config/routes.rb
+  - config.ru
+  - public/index.html
+  - app/assets/stylesheets/homepage.css.scss
+  - app/views/homepage/index.html.erb
