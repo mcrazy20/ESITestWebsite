@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
   <component name="DataSourceManagerImpl" format="xml" hash="2281539848">
     <data-source source="LOCAL" name="Rails ESITestWebsite: development" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="0992c23e-56ce-441d-a658-7fc9eaa5dcc0">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Jeff\Downloads\rubyonrails\ESITestWebsite\db\development.sqlite3</jdbc-url>
-=======
-  <component name="DataSourceManagerImpl" format="xml" hash="4040183587">
-    <data-source source="LOCAL" name="Rails TestWebsite: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="033b3822-8019-41ac-83a6-f97f51e1cf96">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Jeff\Downloads\rubyonrails\TestWebsite\db\development.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/sqlite-jdbc-3.7.2.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails TestWebsite: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="05ad64ed-3ec1-462b-808b-bd53efdb3ad8">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Jeff\Downloads\rubyonrails\TestWebsite\db\production.sqlite3</jdbc-url>
->>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/xerial-sqlite-license.txt</url>

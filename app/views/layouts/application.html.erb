@@ -4,7 +4,6 @@
 <!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-<<<<<<< HEAD
 <head>
   <meta charset="utf-8" />
 
@@ -73,74 +72,4 @@
 
 <%= javascript_include_tag "application" %>
 </body>
-=======
-  <head>
-  	<meta charset="utf-8" />
-
-  	<!-- Uncomment to make IE8 render like IE7 -->
-  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
-
-  	<!-- Set the viewport width to device width for mobile -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  	<title><%= content_for?(:title) ? yield(:title) : "E-Sports Initiative" %></title>
-
-  	<%= stylesheet_link_tag    "application" %>
-  	<%= javascript_include_tag "vendor/custom.modernizr" %>
-    <%= csrf_meta_tags %>
-  </head>
-
-  <body>
-
-  <div class="row">
-    <div class="large-5 columns">
-      <h2><%=link_to image_tag('esilogo-leaf-small-logo.png'), root_path, id: "logo"%> E-Sports Initiative</h2>
-    </div>
-    <div class="large-7 columns">
-      <ul class="right button-group">
-        <li><%= link_to "Scholarship", scholarship_path, class: "button"%></li>
-        <li><%= link_to "Sponsors", sponsors_path, class: "button" %></li>
-        <li><a href="https://www.facebook.com/esportsinitiative" class="button">Facebook</a></li>
-        <li><%= link_to "About Us",aboutus_path, class: "button" %></li>
-      </ul>
-    </div>
-  </div>
-    <%= yield %>
-  <!-- Footer -->
-
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr />
-      <div class="row">
-        <div class="large-6 columns">
-          <p>&copy; E-Sports Initiative</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><%= link_to "Scholarship", scholarship_path%></li>
-            <li><%=link_to "Sponsors", sponsors_path %></li>
-            <li><a href="https://www.facebook.com/esportsinitiative">Facebook</a></li>
-            <li><%= link_to "About Us", aboutus_path%></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-      document.write('<script src=js/vendor/' +
-              ('__proto__' in {} ? 'zepto' : 'jquery') +
-              '.js><\/script>')
-  </script>
-
-
-  <script src="js/foundation.min.js"></script>
-  <script>
-      $(document).foundation();
-  </script>
-  <!-- End Footer -->
-    
-    <%= javascript_include_tag "application" %>
-  </body>
->>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
 </html>

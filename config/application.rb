@@ -1,11 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-<<<<<<< HEAD
 
-=======
-require 'sprockets/railtie'
->>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
@@ -13,11 +9,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-<<<<<<< HEAD
 module ESITestWebsite
-=======
-module TestWebsite
->>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -63,11 +55,7 @@ module TestWebsite
 
     # Enable the asset pipeline
     config.assets.enabled = true
-<<<<<<< HEAD
 
-=======
-    config.assets.initialize_on_precompile = false
->>>>>>> 66cc62cccd432b0f5cd40a2ffa4f899a0540d230
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end
