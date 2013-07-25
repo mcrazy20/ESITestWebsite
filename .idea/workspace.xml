@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1078686-3026-42cf-9e08-b558a132f037" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/aboutus.html.erb" afterPath="$PROJECT_DIR$/app/views/content/aboutus.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/charity.html.erb" afterPath="$PROJECT_DIR$/app/views/content/charity.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/events.html.erb" afterPath="$PROJECT_DIR$/app/views/content/events.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/homepage/index.html.erb" afterPath="$PROJECT_DIR$/app/views/homepage/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/pressrelease.html.erb" afterPath="$PROJECT_DIR$/app/views/content/pressrelease.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/scholarship.html.erb" afterPath="$PROJECT_DIR$/app/views/content/scholarship.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/content/sponsors.html.erb" afterPath="$PROJECT_DIR$/app/views/content/sponsors.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a1078686-3026-42cf-9e08-b558a132f037" name="Default" comment="" />
     <ignored path="ESITestWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a1078686-3026-42cf-9e08-b558a132f037" time="1374706072413" ignored="false" />
@@ -119,19 +110,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/content/events.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="33" selection-start="7140" selection-end="7140" vertical-scroll-proportion="0.7283105">
+            <state line="143" column="33" selection-start="7140" selection-end="7140" vertical-scroll-proportion="-26.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="201" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-35.307693">
+            <state line="54" column="201" selection-start="2079" selection-end="2079" vertical-scroll-proportion="1.0479453">
               <folding />
             </state>
           </provider>
@@ -836,16 +827,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/content/events.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="201" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-35.307693">
+        <state line="143" column="33" selection-start="7140" selection-end="7140" vertical-scroll-proportion="-26.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/content/events.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="33" selection-start="7140" selection-end="7140" vertical-scroll-proportion="0.7283105">
+        <state line="54" column="201" selection-start="2079" selection-end="2079" vertical-scroll-proportion="1.0479453">
           <folding />
         </state>
       </provider>
