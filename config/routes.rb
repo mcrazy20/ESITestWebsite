@@ -1,5 +1,5 @@
 ESITestWebsite::Application.routes.draw do
-
+  get "content/meetings"
   get "content/sponsors"
   get "content/aboutus"
   get "content/scholarship"
@@ -13,6 +13,7 @@ ESITestWebsite::Application.routes.draw do
   resources :content
   resources :homepage
 
+  match '/meetings', to: 'content#meetings'
   match '/aboutus', to: 'content#aboutus'
   match '/sponsors', to: 'content#sponsors'
   match'/scholarship', to: 'content#scholarship'
