@@ -9,6 +9,7 @@ ESITestWebsite::Application.routes.draw do
   get "content/pressrelease"
   get "homepage/index"
   get "content/contact"
+  get "content/volunteer"
 
   resources :content
   resources :homepage
@@ -22,6 +23,7 @@ ESITestWebsite::Application.routes.draw do
   match '/news', to: 'content#news'
   match '/pressrelease', to: 'content#pressrelease'
   match '/contact', to: 'content#contact'
+  match '/volunteer', to: 'content#volunteer'
 
   root to:"homepage#index"
   # The priority is based upon order of creation:
