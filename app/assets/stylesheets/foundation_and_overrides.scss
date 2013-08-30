@@ -1127,8 +1127,8 @@ $panel-font-color: #22AA44;
 
 // Background color for the table and even rows
 
-// $table-bg: #fff;
-// $table-even-row-bg: #f9f9f9;
+$table-bg: #505050;
+$table-even-row-bg: #454545;
 
 // Table cell border style
 
@@ -1148,7 +1148,7 @@ $panel-font-color: #22AA44;
 
 // $table-row-padding: emCalc(9px) emCalc(10px);
 // $table-row-font-size: emCalc(14px);
-// $table-row-font-color: #222;
+$table-row-font-color: #FFFFFF;
 // $table-line-height: emCalc(18px);
 
 // Display and margin of tables
