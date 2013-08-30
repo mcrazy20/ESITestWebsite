@@ -28,8 +28,8 @@ $em-base: 16px !default;
 
 $default-float: left;
 
-// $body-bg: #77D490;
-// $body-font-color: #0B6F25;
+$body-bg: #505050;
+$body-font-color: #FFFFFF;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -140,16 +140,16 @@ $secondary-color: #77D490;
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #22AA44;
 // $header-line-height: 1.4;
-// $header-top-margin: .2em;
+$header-top-margin: 0em;
 // $header-bottom-margin: .5em;
 // $header-text-rendering: optimizeLegibility;
 
 // Heading font sizes
 
 // $h1-font-size: emCalc(44px);
-// $h2-font-size: emCalc(37px);
+ $h2-font-size: emCalc(33px);
 // $h3-font-size: emCalc(27px);
 // $h4-font-size: emCalc(23px);
 // $h5-font-size: emCalc(18px);
@@ -445,8 +445,7 @@ $secondary-color: #77D490;
 
 // $split-button-padding-lrg: $button-lrg * 6;
 // $split-button-span-width-lrg: $button-lrg * 3.75;
-// $split-button-pip-size-lrg: $button-lrg - emCalc(6px);
-// $split-button-pip-top-lrg: $button-lrg + emCalc(5px);
+// $split-button-pip-size-lrg: $button-lrg - emCalc(6px);// $split-button-pip-top-lrg: $button-lrg + emCalc(6px);
 // $split-button-pip-left-lrg: emCalc(-9px);
 
 //
@@ -851,7 +850,7 @@ $secondary-color: #77D490;
 
 // Background and border styles
 
-// $panel-bg: #77D490;
+$panel-bg: #676767;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
@@ -867,7 +866,7 @@ $secondary-color: #77D490;
 
 // Font colors
 
-$panel-font-color: #0B6F25;
+$panel-font-color: #22AA44;
 // $panel-font-color-alt: #fff;
 // $panel-header-adjust: true; // Set to false to keep default header styles
 
