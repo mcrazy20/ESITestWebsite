@@ -23,15 +23,16 @@
 <body>
 
 <div class="row">
-  <div class="large-5 columns">
+  <div class="large-4 columns">
     <h2><%=link_to image_tag('newHeader.png'), root_path, id: "logo"%> </h2>
   </div>
-  <div class="large-7 columns">
+  <div class="large-9 columns">
     <ul class="right button-group">
       <li><%= link_to "About Us",aboutus_path, class: "button" %></li>
       <li><%= link_to "Sponsors", sponsors_path, class: "button" %></li>
       <li><%=link_to "Press Release", pressrelease_path, class: "button"%></li>
       <li><%=link_to "Scholarship", scholarship_path, class: "button"%></li>
+      <li><%=link_to "Live Stream", twitchstream_path, class: "button"%></li>
     </ul>
   </div>
 </div>
@@ -51,6 +52,7 @@
           <li><%=link_to "Sponsors", sponsors_path %></li>
           <li><%=link_to "Press Release", pressrelease_path%></li>
           <li><%= link_to "Scholarship", scholarship_path%></li>
+          <li><%= link_to "Live Stream", twitchstream_path%></li>
         </ul>
       </div>
     </div>
