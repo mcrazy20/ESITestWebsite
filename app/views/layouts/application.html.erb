@@ -22,7 +22,7 @@
 
 <body>
 
-<div class="row">
+<div class="row dark-grey">
   <div class="large-5 columns">
     <h2><%=link_to image_tag('newHeader.png'), root_path, id: "logo"%> </h2>
   </div>
@@ -35,11 +35,14 @@
     </ul>
   </div>
 </div>
+
+<div class="row light-grey">
 <%= yield %>
+</div>
+
 <!-- Footer -->
 
-<footer class="row">
-  <div class="large-12 columns">
+<footer class="row dark-grey">
     <hr />
     <div class="row">
       <div class="large-6 columns">
@@ -53,7 +56,6 @@
           <li><%= link_to "Scholarship", scholarship_path%></li>
         </ul>
       </div>
-    </div>
   </div>
 </footer>
 
