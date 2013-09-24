@@ -22,56 +22,56 @@
 
 <body>
 
-<div class="row dark-grey">
-  <div class="large-5 columns">
-    <h2><%=link_to image_tag('newHeader.png'), root_path, id: "logo"%> </h2>
+  <div class="row dark-grey">
+    <div class="large-5 columns">
+      <h2><%=link_to image_tag('newHeader.png'), root_path, id: "logo"%> </h2>
+    </div>
+    <div class="large-7 columns">
+      <ul class="right button-group">
+        <li><%= link_to "About Us", aboutus_path, class: "button" %></li>
+        <li><%= link_to "Sponsors", sponsors_path, class: "button" %></li>
+        <li><%= link_to "Press Release", pressrelease_path, class: "button"%></li>
+        <li><%= link_to "Scholarship", scholarship_path, class: "button"%></li>
+      </ul>
+    </div>
   </div>
-  <div class="large-7 columns">
-    <ul class="right button-group">
-      <li><%= link_to "About Us",aboutus_path, class: "button" %></li>
-      <li><%= link_to "Sponsors", sponsors_path, class: "button" %></li>
-      <li><%=link_to "Press Release", pressrelease_path, class: "button"%></li>
-      <li><%=link_to "Scholarship", scholarship_path, class: "button"%></li>
-    </ul>
+
+  <div class="row light-grey">
+    <div class="large-12 columns">
+      <%= yield %>
+    </div>
   </div>
-</div>
 
-<div class="row light-grey">
-<%= yield %>
-</div>
+  <!-- Footer -->
 
-<!-- Footer -->
-
-<footer class="row dark-grey">
+  <footer class="row dark-grey">
     <hr />
-    <div class="row">
-      <div class="large-6 columns">
-        <p>&copy; E-Sports Initiative</p>
-      </div>
-      <div class="large-6 columns">
-        <ul class="inline-list right">
-          <li><%= link_to "About Us", aboutus_path%></li>
-          <li><%=link_to "Sponsors", sponsors_path %></li>
-          <li><%=link_to "Press Release", pressrelease_path%></li>
-          <li><%= link_to "Scholarship", scholarship_path%></li>
-        </ul>
-      </div>
-  </div>
-</footer>
+    <div class="large-6 columns">
+      <p>&copy; E-Sports Initiative</p>
+    </div>
+    <div class="large-6 columns">
+      <ul class="inline-list right">
+        <li><%= link_to "About Us", aboutus_path%></li>
+        <li><%=link_to "Sponsors", sponsors_path %></li>
+        <li><%=link_to "Press Release", pressrelease_path%></li>
+        <li><%= link_to "Scholarship", scholarship_path%></li>
+      </ul>
+    </div>
+  </footer>
 
-<script>
-    document.write('<script src=js/vendor/' +
-            ('__proto__' in {} ? 'zepto' : 'jquery') +
-            '.js><\/script>')
-</script>
+  <script>
+  document.write('<script src=js/vendor/' +
+    ('__proto__' in {} ? 'zepto' : 'jquery') +
+    '.js><\/script>')
+  </script>
 
 
-<script src="js/foundation.min.js"></script>
-<script>
-    $(document).foundation();
-</script>
-<!-- End Footer -->
+  <script src="js/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+  <!-- End Footer -->
 
-<%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>

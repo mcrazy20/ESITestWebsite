@@ -103,8 +103,6 @@ Thanks :)*/
 
 body{
 
-	color:white;
-
 	/* IE10 Consumer Preview */ 
 	background-image: -ms-linear-gradient(top left, #22AA44 0%, #77D490 100%);
 
@@ -122,6 +120,8 @@ body{
 
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to bottom right, #22AA44 0%, #77D490 100%);
+
+	background-repeat:no-repeat;
 }
 .dark-grey{
 	background-color:#666666;
