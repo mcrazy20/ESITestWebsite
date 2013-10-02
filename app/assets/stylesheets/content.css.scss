@@ -122,16 +122,16 @@ body{
 	/* Mozilla Firefox */ 
 	background-image: -moz-linear-gradient(top left, #22AA44 0%, #77D490 100%);
 	/* Opera */ 
-	background-image: -o-linear-gradient(top left, #22AA44 0%, #77D490 100%);
+	background-image: -o-linear-gradient(top left, #119933 0%, #77D490 100%);
 	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #22AA44), color-stop(1, #77D490));
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #000000), color-stop(1, #77D490));
 	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top left, #22AA44 0%, #77D490 100%);
+	background-image: -webkit-linear-gradient(top left, #000000 0%, #77D490 100%);
 	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom right, #22AA44 0%, #77D490 100%);
+	background-image: linear-gradient(to bottom right, #008822 0%, #88EEAA 100%);
 }
 #content{
-	background-color:#a6a6a6;
+	background-color:#EEEEEE;
 	clear:both;
 	min-height:100%;
 	height:auto !important;
@@ -139,16 +139,15 @@ body{
 	margin-bottom:-100px;
 }
 header{
-	background-color:#666666;	
+	// background-color:#959595;
 }
 footer{
-	background-color:#666666;
+	background-color:#EEEEEE;
 	clear:both;
 	position:relative;
 	height:100px;
 }
 .dark-grey{
-	background-color:#666666;
 }
 #sticky-footer{
 	height:100px;

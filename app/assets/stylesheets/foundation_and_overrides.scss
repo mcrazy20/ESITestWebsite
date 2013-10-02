@@ -29,7 +29,7 @@ $em-base: 16px !default;
 $default-float: left;
 
 //$body-bg: #505050;
-$body-font-color: #FFFFFF;
+$body-font-color: #000000;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -38,7 +38,7 @@ $body-font-color: #FFFFFF;
 
 // $font-smoothing: antialiased;
 
-// Text direction settings
+// Text orbit settings
 
 // $text-direction: ltr;
 
@@ -140,7 +140,7 @@ $row-width: emCalc(1200px);
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-$header-font-color: #ffffff;
+$header-font-color: #22AA44;
 // $header-line-height: 1.4;
 $header-top-margin: 0em;
 // $header-bottom-margin: .5em;
@@ -776,7 +776,7 @@ $header-top-margin: 0em;
 
 // Caption styles
 
-// $orbit-container-bg: #505050;
+$orbit-container-bg: #EEEEEE;
 // $orbit-caption-bg-old: rgb(0,0,0);
 // $orbit-caption-bg: rgba(0,0,0,0.6);
 // $orbit-caption-font-color: #fff;
@@ -850,7 +850,7 @@ $header-top-margin: 0em;
 
 // Background and border styles
 
-//$panel-bg: #676767;
+$panel-bg: #a6a6a6;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
