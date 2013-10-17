@@ -18,85 +18,75 @@
 </head>
 <body>
 
+  <!-- First Band (Slider) -->
 
-
-
-
-<!-- First Band (Slider) -->
-
-<div class="row">
-  <div class="large-12 columns">
-    
-    <ul data-orbit stlye="width: 1000px !important">
+  <div class="row">
+    <div class="large-12 columns">
+      <ul class="dark-grey" data-orbit stlye="width: 1000px !important">
       <li><%=link_to image_tag('sc2flierbanner.jpg', style: "width:1000px;height:500px;position:relative;left:100px"), events_path%><div class="orbit-caption">View the final results of the Starcraft 2 HOTS tournament!</div></li>
-      <li><%=link_to image_tag('SlideshowLeague.jpg', style: "width:1000px;height:500px;position:relative;left:100px")%><div class="orbit-caption">One of our major events: LAN parties</div></li>
-      <li><%=link_to image_tag('Teambuilding.JPG', style: "width:1000px;height:500px;position:relative;left:100px")%><div class="orbit-caption">Join the team for "Team Building" fun!</div></li>
-      <li><%=link_to image_tag('Check Drop.jpg', style:"width:1000px;height:500px;position:relative;left:100px")%><div class="orbit-caption">Come to our events to help give back to the community!</div></li>
-    </ul>
-    <!-- <div id="slider">
-      
-    </div> -->
-
-    <hr />
-  </div>
-</div>
-
-<!-- Three-up Content Blocks -->
-
-<div class="row">
-  <div class="large-4 columns">
-    <h4><%= link_to "Fundraising Events", events_path, class: "small button expand"%></h4>
-    <p>At the heart of E-Sports Initiative and its nonprofit mission is a sustainable source of financial support: our video game tournaments and events. These fundraisers provide an environment for a community of both casual and competitive video game players to compete for prizes and support our causes- we thank you for your continued patronage.
-    </p>
-  </div>
-
-  <div class="large-4 columns">
-    <h4><%= link_to "Industry News", news_path, class: "small button expand"%></h4>
-    <p>E-Sports Initiative provides news coverage of upcoming trends, innovations, and the rapidly-changing landscape in the video game and e-sports industries. We are committed to providing unbiased reporting to best prepare our readership and aspiring next-generation employees for a professional career in these industries.
-    </p>
-  </div>
-
-  <div class="large-4 columns">
-    <h4><%= link_to "Community Service Events", charity_path, class: "small button expand"%></h4>
-    <p>As E-Sports Initiative continues to grow, so does its commitment to community; we espouse social responsibility in tandem to our nonprofit mission. We recognize that there are more ways to give back than simply monetary contributions- learn more about our ongoing community service events and how you can be a part of a legacy of paying it forward!</p>
-  </div>
-
-</div>
-
-<!-- Call to Action Panel -->
-<div class="row">
-  <div class="large-12 columns">
-
-    <div class="panel">
-      <h4>Get in touch!</h4>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p>Want to work with ESI?</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="even-3 button-group">
-            <li><%=link_to "Volunteer With Us", volunteer_path, class: "small button"%></li>
-            <li><%=link_to "Meet With Us", meetings_path, class: "small button"%></li>
-            <li><%=link_to "Contact Us", contact_path, class: "small button" %></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>Want to keep up to date?</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="even-2 button-group">
-            <li><%=link_to "Facebook", "https://www.facebook.com/esportsinitiative", class: "small button"%></li>
-            <li><%=link_to "Twitter", "https://twitter.com/ESI_OSU", class: "small button"%></li>
-          </ul>
-        </div>
-      </div>
-
+        <li><%=link_to image_tag('SlideshowLeague.jpg', style: "width:1000px;height:500px;position:relative;left:100px")%><div class="orbit-caption">One of our major fundraising events: LAN parties</div></li>
+        
+        <li><%=link_to image_tag('Check Drop.jpg', style:"width:1000px;height:500px;position:relative;left:100px")%><div class="orbit-caption">Come to our events to help give back to the community!</div></li>
+      </ul>
+      <hr />
     </div>
   </div>
 
+  <!-- Three-up Content Blocks -->
+
+  <div class="row">
+    <div class="large-4 columns">
+      <%=image_tag ('fundraisingEventsEdited.jpg'), class: "sectionPicture"%>
+      <h4><%= link_to "Fundraising Events", events_path, class: "small button expand"%></h4>
+      <p>At the heart of E-Sports Initiative and its nonprofit mission is a sustainable source of financial support: our video game tournaments and events. These fundraisers provide an environment for a community of both casual and competitive video game players to compete for prizes and support our causes- we thank you for your continued patronage.
+      </p>
+    </div>
+    <div class="large-4 columns">
+      <%=image_tag ('industryNewsEdited.JPG'), class: "sectionPicture"%>
+      <h4><%= link_to "Industry News", news_path, class: "small button expand"%></h4>
+      <p>E-Sports Initiative provides news coverage of upcoming trends, innovations, and the rapidly-changing landscape in the video game and e-sports industries. We are committed to providing unbiased reporting to best prepare our readership and aspiring next-generation employees for a professional career in these industries.
+      </p>
+    </div>
+    <div class="large-4 columns">
+      <%=image_tag ('charityEdited.jpg'), class: "sectionPicture"%>
+      <h4><%= link_to "Community Service Events", charity_path, class: "small button expand"%></h4>
+      <p>As E-Sports Initiative continues to grow, so does its commitment to community; we espouse social responsibility in tandem to our nonprofit mission. We recognize that there are more ways to give back than simply monetary contributions- learn more about our ongoing community service events and how you can be a part of a legacy of paying it forward!</p>
+    </div>
+  </div>
+
+  <!-- Call to Action Panel -->
+  <div class="row">
+    <div class="large-12 columns">
+
+      <div class="panel dark-grey">
+        <h4>Get in touch!</h4>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Want to work with ESI?</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="even-3 button-group">
+              <li><%=link_to "Volunteer With Us", volunteer_path, class: "small button"%></li>
+              <li><%=link_to "Meet With Us", meetings_path, class: "small button"%></li>
+              <li><%=link_to "Contact Us", contact_path, class: "small button" %></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Want to keep up to date?</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="even-2 button-group">
+              <li><%=link_to "Facebook", "https://www.facebook.com/esportsinitiative", class: "small button"%></li>
+              <li><%=link_to "Twitter", "https://twitter.com/ESI_OSU", class: "small button"%></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
