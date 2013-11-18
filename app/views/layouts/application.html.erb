@@ -54,35 +54,38 @@
 
   <!-- Footer -->
 
-  <footer class="row dark-grey">
+<footer class="row">
+  <div class="large-12 columns">
     <hr />
-    <div class="large-6 columns">
-      <p>&copy; E-Sports Initiative</p>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>&copy; E-Sports Initiative</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="inline-list right">
+          <li><%= link_to "About Us", aboutus_path%></li>
+          <li><%=link_to "Sponsors", sponsors_path %></li>
+          <li><%=link_to "Press Release", pressrelease_path%></li>
+          <li><%= link_to "Scholarship", scholarship_path%></li>
+        </ul>
+      </div>
     </div>
-    <div class="large-6 columns">
-      <ul class="inline-list right">
-        <li><%= link_to "About Us", aboutus_path%></li>
-        <li><%=link_to "Sponsors", sponsors_path %></li>
-        <li><%=link_to "Press Release", pressrelease_path%></li>
-        <li><%= link_to "Scholarship", scholarship_path%></li>
-      </ul>
-    </div>
-  </footer>
+  </div>
+</footer>
 
-  <script>
-  document.write('<script src=js/vendor/' +
-    ('__proto__' in {} ? 'zepto' : 'jquery') +
-    '.js><\/script>')
-  </script>
+<script>
+    document.write('<script src=js/vendor/' +
+            ('__proto__' in {} ? 'zepto' : 'jquery') +
+            '.js><\/script>')
+</script>
 
-  <script src="js/foundation.min.js"></script>
-  <script>
-  $(document).foundation();
-  </script>
-  
-  <!-- End Footer -->
 
-  <%= javascript_include_tag "application" %>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<!-- End Footer -->
 
+<%= javascript_include_tag "application" %>
 </body>
 </html>
