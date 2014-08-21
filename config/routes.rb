@@ -11,7 +11,12 @@ ESITestWebsite::Application.routes.draw do
   get "content/contact"
   get "content/volunteer"
   get "content/scrules"
-
+  get "content/lol"
+  get "content/smash"
+  get "content/starcraft"
+  get "content/dota2"
+  get "content/hearthstone"
+  get "content/sports"
   resources :content
   resources :homepage
 
@@ -26,7 +31,12 @@ ESITestWebsite::Application.routes.draw do
   match '/contact', to: 'content#contact'
   match '/volunteer', to: 'content#volunteer'
   match '/scrules', to: 'content#scrules'
-
+  match '/lol', to: 'content#lol'
+  match '/smash', to: 'content#smash'
+  match '/starcraft', to: 'content#starcraft'
+  match '/dota2', to: 'content#dota2'
+  match '/hearthstone', to: 'content#hearthstone'
+  match '/sports', to: 'content#sports'
   root to:"homepage#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.

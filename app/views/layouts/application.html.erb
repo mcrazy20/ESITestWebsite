@@ -33,11 +33,20 @@
         </div>
         <div class="large-7 columns">
           <ul class="right button-group">
+            <a href="#" data-dropdown="drop" class="button dropdown">Games</a>
+            <ul id="drop" data-dropdown-content class="f-dropdown">
+              <li><%= link_to "League of Legends", lol_path%></li>
+              <li><%= link_to "Super Smash Bros", smash_path%></li>
+              <li><%= link_to "Starcraft 2", starcraft_path%></li>
+              <li><%= link_to "Dota 2", dota2_path%></li>
+              <li><%= link_to "Hearthstone", hearthstone_path%></li>
+              <li><%= link_to "Fifa/Madden/Sports", sports_path%></li>
+            </ul>
             <li><%= link_to "About Us", aboutus_path, class: "button" %></li>
             <li><%= link_to "Sponsors", sponsors_path, class: "button" %></li>
             <li><%= link_to "Press Release", pressrelease_path, class: "button"%></li>
-            <li><%= link_to "Scholarship", scholarship_path, class: "button"%></li>
-          </ul>
+            
+         </ul>
         </div>
       </header>
 
